@@ -1,29 +1,13 @@
-
-<!-- HEADER_FINAL 
-  Liens à compléter
--->
-
-
-<!-- BREADCRUMPS
-Accueil > Devenir ingénieur > Formations ingénieur
--->
-
-
-
-<!-- PLUGGIN IMAGES 
-Images DP
-  Compléter les images à partir de la page : https://isen-ouest.fr/ecole-ingenieur/devenir-ingenieur/ingenieur-alternance/
-  8 images minimum (de votre choix à intégrer + les liens vers le site isen-ouest.fr)
--->
-
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Domaines professionnels ISEN</title>
-	<link href="style.css" rel="stylesheet">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Formations</title>
+		<link href="style.css" rel="stylesheet">    		
+	</head>
+	<body>
 
+<!-- HEADER_FINAL -->
 <header class="header-isen">
   <div class="header-container">
     <!-- Logo -->
@@ -34,12 +18,69 @@ Images DP
     <!-- Navbar -->
     <nav class="header-nav">
       <ul>
-        <li><a href="#">Liens à venir</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="devenir_inge.html">Devenir ingénieur</a></li>
+	<li><a href="apprentissage.html">Apprentissage</a></li>
+	<li><a href="postbac.html">Cycle Post-bac</a></li>
+	<li><a href="contact.html">Contact</a></li>  
       </ul>
     </nav>
   </div>
 </header>
-<body>
+
+<!-- BREADCRUMPS
+Accueil > Devenir ingénieur > Formations ingénieur
+-->
+<!-- Fil d’Ariane -->
+<nav class="breadcrumb" aria-label="Fil d'Ariane">
+  <div class="breadcrumb-container">
+    <div class="breadcrumb-content">
+      <a href="index.html">Accueil</a>
+      <span class="separator">›</span>
+      <a href="devenir_inge.html">Devenir ingénieur</a>
+      <span class="separator">›</span>
+      <span class="current">Formations ingénieur</span>
+    </div>
+
+    <!-- élément qui remplit la partie droite et affiche la ligne rouge -->
+    <div class="breadcrumb-line" aria-hidden="true"></div>
+  </div>
+</nav>
+
+<section class="block-devenir">
+  <div class="block-container">
+    <!-- Titre en haut -->
+    <h1 class="block-title">Titre</h1>
+
+    <!-- Deux colonnes -->
+    <div class="block-columns-img">
+      <!-- Colonne gauche : texte -->
+      <div class="block-text">
+        <p>
+          
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue nibh et sollicitudin porttitor. Vivamus facilisis elit non leo luctus efficitur. Duis sed molestie tellus, sed porttitor elit. Phasellus hendrerit vel dolor sit amet vestibulum. Proin eu molestie magna. Fusce eu nibh euismod, ornare nunc ut, lacinia orci. Morbi interdum lacus in interdum dignissim. Integer id purus lectus. Fusce quis molestie enim. Pellentesque iaculis ligula lacinia elit volutpat, ac ornare est dignissim. Curabitur leo ex, lacinia imperdiet augue eget, pellentesque egestas mi. Sed molestie diam justo, vel finibus metus ultrices eu. Sed placerat diam magna, quis tincidunt arcu blandit vitae. Nam vel turpis vel libero aliquet sodales. In a interdum sapien. 
+        </p>
+        <p>
+          Maecenas eget sapien consequat, mattis dolor non, laoreet erat. Suspendisse lacinia sed mauris eu feugiat. Quisque vitae ultricies mauris. Nulla in nisl non massa mattis facilisis ut in felis. Donec fringilla vulputate lacus a mollis. Vivamus mattis eros et augue molestie egestas. Duis et elit ac diam semper varius vitae in elit. Nam vel felis auctor, aliquet dui in, scelerisque lectus. 
+        </p>
+      </div>
+
+      <!-- Colonne droite : image -->
+      <div class="block-image">
+        <img src="https://isen-ouest.fr/wp-content/uploads/2024/07/15/logo-isen-couleur.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLUGGIN IMAGES 
+Images DP
+  Compléter les images à partir de la page : https://isen-ouest.fr/ecole-ingenieur/devenir-ingenieur/ingenieur-alternance/
+  8 images minimum (de votre choix à intégrer + les liens vers le site isen-ouest.fr)
+-->
+
   <section class="dp-section">
     <h2>Titre</h2>
     <div class="dp-grid">
@@ -85,10 +126,6 @@ Images DP
       </div>
     </div>
   </section>
-</body>
-</html>
-
-
 
 <!-- PLUGGIN BLOCK (Apprentissage / Postbac)
 	FISA
@@ -113,14 +150,6 @@ Images DP
 
 
 <!-- FOOTER_FINAL -->
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link href="style.css" rel="stylesheet">
-</head>
-<body>
 <footer class="site-footer">
   <div class="footer-container">
 
