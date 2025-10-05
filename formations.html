@@ -1,11 +1,13 @@
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link href="style.css" rel="stylesheet">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Formations</title>
+		<link href="style.css" rel="stylesheet">    		
+	</head>
+	<body>
+
+<!-- HEADER_FINAL -->
 <header class="header-isen">
   <div class="header-container">
     <!-- Logo -->
@@ -16,10 +18,34 @@
     <!-- Navbar -->
     <nav class="header-nav">
       <ul>
-        <li><a href="#">Liens à venir</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="devenir_inge.html">Devenir ingénieur</a></li>
+	<li><a href="apprentissage.html">Apprentissage</a></li>
+	<li><a href="postbac.html">Cycle Post-bac</a></li>
+	<li><a href="contact.html">Contact</a></li>  
+      </ul>
     </nav>
   </div>
 </header>
+
+<!-- BREADCRUMPS
+Accueil > Devenir ingénieur > Formations ingénieur
+-->
+<!-- Fil d’Ariane -->
+<nav class="breadcrumb" aria-label="Fil d'Ariane">
+  <div class="breadcrumb-container">
+    <div class="breadcrumb-content">
+      <a href="index.html">Accueil</a>
+      <span class="separator">›</span>
+      <a href="devenir_inge.html">Devenir ingénieur</a>
+      <span class="separator">›</span>
+      <span class="current">Formations ingénieur</span>
+    </div>
+
+    <!-- élément qui remplit la partie droite et affiche la ligne rouge -->
+    <div class="breadcrumb-line" aria-hidden="true"></div>
+  </div>
+</nav>
 
 <section class="block-devenir">
   <div class="block-container">
@@ -49,6 +75,130 @@
   </div>
 </section>
 
+<!-- PLUGGIN IMAGES 
+Images DP
+  Compléter les images à partir de la page : https://isen-ouest.fr/ecole-ingenieur/devenir-ingenieur/ingenieur-alternance/
+  8 images minimum (de votre choix à intégrer + les liens vers le site isen-ouest.fr)
+-->
+
+  <section class="dp-section">
+    <h2>Titre</h2>
+    <div class="dp-grid">
+      <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-cybersecurite">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-cybersecurite.png" alt="légende">
+        </a>
+      </div>
+      <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-developpement-logiciel">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-developpement-logiciel.png" alt="légende">
+        </a>
+      </div>
+      <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-objets-connectes">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-objets-connectes.png" alt="légende">
+        </a>
+      </div>
+      <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-intelligence-artificielle">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-intelligence-artificielle.png" alt="légende">
+        </a>
+      </div>
+      <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-technologies-medicales-et-de-sante">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-tms.png" alt="légende">
+        </a>
+      </div>
+      <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-numerique-environnement-et-developpement-durable">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-nedd.png" alt="légende">
+        </a>
+      </div>
+     <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-robotique-usine-du-futur">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-usine-du-futur.png" alt="légende">
+        </a>
+      </div>
+     <div class="dp-card">
+        <a href="https://isen-ouest.fr/formations/ingenieur-de-projets-et-daffaires">
+          <img src="https://isen-ouest.fr/wp-content/uploads/2024/10/21/vignette-dp-ipa.png" alt="légende">
+        </a>
+      </div>
+    </div>
+  </section>
+
+<!-- PLUGGIN BLOCK (Apprentissage / Postbac)
+	FISA
+    https://isen-ouest.fr/wp-content/uploads/2024/10/18/formation-apprentissage-scaled.jpg
+
+		Devenir ingénieur par alternance
+
+		Le cycle ingénieur en apprentissage permet d’alterner les périodes à l’école et les périodes au sein de l’entreprise d’accueil en montant progressivement en compétence. Cette formation favorise une immersion professionnelle rapide tout en étant rémunéré pendant toute la durée du contrat.
+
+		Lien : Formation d'ingénieurs sous statut apprenti
+	Post-bac
+		https://isen-ouest.fr/wp-content/uploads/2024/10/18/formation-initiale-scaled.jpg
+
+    Cycles post-bac
+
+		Au cours des trois premières années post-bac, les étudiants choisissent leur cursus parmi 7 cycles de formation différents.
+
+    Au cours de ces 3 années, les élèves acquièrent une solide formation dans les sciences et les technologies numériques tout en approfondissant une spécialité dès la première année après le baccalauréat. Plusieurs passerelles sont possibles durant les 3 premières années si l’étudiant souhaite changer de cycle.
+
+		Lien : Cycles post-bac 
+-->
+<div class="block-container">
+  <div class="block-columns">
+	<section class="block-alternance">
+		<img src="https://isen-ouest.fr/wp-content/uploads/2024/07/15/logo-isen-couleur.png" alt="Alternance ISEN Ouest">
+		<div class="block-alternance-content">
+		<h2>Titre</h2>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue nibh et sollicitudin porttitor. Vivamus facilisis elit non leo luctus efficitur.
+			</p>
+			<p>
+			Maecenas eget sapien consequat, mattis dolor non, laoreet erat. Suspendisse lacinia sed mauris eu feugiat. 
+			</p>
+			<div class="block-button">
+				<a href="ACOMPLETER">Lien</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="block-alternance">
+		<img src="https://isen-ouest.fr/wp-content/uploads/2024/07/15/logo-isen-couleur.png" alt="Alternance ISEN Ouest">
+		<div class="block-alternance-content">
+		<h2>Titre</h2>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue nibh et sollicitudin porttitor. Vivamus facilisis elit non leo luctus efficitur.
+			</p>
+			<p>
+			Maecenas eget sapien consequat, mattis dolor non, laoreet erat. Suspendisse lacinia sed mauris eu feugiat. 
+			</p>
+			<div class="block-button">
+				<a href="ACOMPLETER">Lien</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="block-alternance">
+		<img src="https://isen-ouest.fr/wp-content/uploads/2024/07/15/logo-isen-couleur.png" alt="Alternance ISEN Ouest">
+		<div class="block-alternance-content">
+		<h2>Titre</h2>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue nibh et sollicitudin porttitor. Vivamus facilisis elit non leo luctus efficitur.
+			</p>
+			<p>
+			Maecenas eget sapien consequat, mattis dolor non, laoreet erat. Suspendisse lacinia sed mauris eu feugiat. 
+			</p>
+			<div class="block-button">
+				<a href="ACOMPLETER">Lien</a>
+			</div>
+		</div>
+	</section>
+</div>
+
+<!-- FOOTER_FINAL -->
 <footer class="site-footer">
   <div class="footer-container">
 
@@ -56,21 +206,53 @@
     <div class="footer-col footer-col-logo">
       <img src="https://isen-ouest.fr/wp-content/uploads/2024/07/15/logo-isen-blanc.svg" 
            alt="ISEN Ouest" class="footer-logo">
+      <a href="contact.html" class="btn-contact">Nous contacter</a>
     </div>
 
     <!-- Zone titres + colonnes 2-4 -->
     <div class="footer-links-section">
       <!-- Titre général -->
-      <p class="footer-cities">Texte à venir</p>
+      <p class="footer-cities">Brest - Caen - Nantes - Paris - Rennes</p>
 
+      <!-- Colonnes de liens -->
+      <div class="footer-links-container">
+        <!-- Colonne 2 : Devenir ingénieur -->
+        <div class="footer-col">
+          <h3>Devenir ingénieur</h3>
+          <ul>
+            <li><a href="postbac.html">Cycle post-bac</a></li>
+            <li><a href="devenir_inge.html">Formation d'ingénieur</a></li>
+            <li><a href="apprentissage.html">Apprentissage</a></li>
+          </ul>
+        </div>
 
+        <!-- Colonne 3 : Entreprises -->
+        <div class="footer-col">
+          <h3>Entreprises</h3>
+          <ul>
+            <li><a href="https://isen-ouest.fr/entreprises/recruter/">Recruter un étudiant</a></li>
+            <li><a href="https://isen-ouest.fr/labisen-la-recherche/la-recherche-partenariale/">Recherche partenariale</a></li>
+            <li><a href="http://isen-ouest.fr/taxe-d-apprentissage">Taxe d'apprentissage</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne 4 : Étudiants -->
+        <div class="footer-col">
+          <h3>Étudiants</h3>
+          <ul>
+            <li><a href="https://isen-ouest.fr/infos-pratiques/">Informations pratiques</a></li>
+            <li><a href="http://isen-ouest.fr/sportifs">Sportifs</a></li>
+            <li><a href="http://isen-ouest.fr/alumni-aiisen">Alumni AIISEN</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <!-- Bas de page -->
 </footer>
 <div class="footer-bottom">
-  &copy;
+  &copy; 2025 ISEN Ouest – Tous droits réservés.
 </div>
+
 
 </body>
 </html>
